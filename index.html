@@ -9,7 +9,7 @@
 <body ng-app="pokedexApp">
 
     <div class="App" ng-controller="PokeDexController as vm">
-        <img class="pokeball-back" id="pokeballBack" src="//hanashiro.github.io/pokedex/images/pokeball.svg">
+        <img roll-on-scroll class="pokeball-back" id="pokeballBack" src="//hanashiro.github.io/pokedex/images/pokeball.svg">
 
         <input type="text" id="pokeFilter" placeholder="Search" ng-model="vm.searchText"/>
 
@@ -23,5 +23,6 @@
     <script src="js/App.js" ></script>
     <script src="js/controllers/PokedexController.js"></script>
     <script src="js/components/PokeListItem/PokeListItemComponent.js"></script>
+    <script src="js/directives/RollOnScrollDirective.js"></script>
 </body>
 </html>
